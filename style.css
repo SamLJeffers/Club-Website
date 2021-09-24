@@ -1,0 +1,38 @@
+* {
+    font-family: 'Montserrat';
+}
+
+body {
+    background-color: black;
+}
+/*NAV*/
+nav {
+    text-align: center;
+}
+nav :hover{
+    color:lightskyblue;
+}
+a {
+    color:white;
+    text-decoration: none;
+    padding: 30px;
+}
+
+/*TITLE*/
+.container1 {
+    height: 300px;
+    width:100%;
+    background-image: url(./images/headingImage.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+}
+h1 {
+    color: white;
+    text-align: center;
+    padding-top: 80px;
+}
+h3 {
+    text-align: center;
+}
