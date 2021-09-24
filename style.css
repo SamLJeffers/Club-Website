@@ -117,3 +117,53 @@ h4 {
     margin-top: 150px;
     padding: 5px;
 }
+@media screen and (min-width: 700px) {
+    .container1 {
+        height: 400px;
+        width:100%;
+        background-position: bottom center;
+    }
+    #about {
+     flex-direction: column;
+    }
+    .box1, .box2, .box3 {
+        background-position: 0px px;
+        height:400px;
+        font-size: 30px;
+        margin-bottom: 5px;
+    }
+    span {
+        color: white;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .container1 {
+        height: 600px;
+        width:100%;
+        background-position: center 100px 100px;
+    }
+    #about {
+        flex-direction: row;
+        gap: 10px;
+    }
+    .box1, .box2, .box3 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    h3 {
+        font-size: 30px;
+    }
+    h4 {
+        font-size: 30px;
+    }
+    p {
+        padding-top: 310px;
+    }
+    span {
+        color: white;
+    }
+    .info {
+        height: 600px;
+    }
+}
